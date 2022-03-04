@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Draggable from 'react-draggable'; // The default
+
+
+const Box = () => {
+  return <div className="box">
+    <div className='drag-handler'>拖这里可以</div>
+    <img src="https://placekitten.com/400/350" alt="cat1" />
+  </div >
+}
+
+const DraggableBox = () => {
+
+  return <Draggable handle='.drag-handler'>
+    <div>
+      <Box />
+    </div>
+  </Draggable>
+
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DraggableBox></DraggableBox>
+      <DraggableBox></DraggableBox>
     </div>
   );
 }
