@@ -4,6 +4,8 @@
 
 首发于：[卡拉云技术博客](https://kalacloud.com/blog/react-draggable-tutorial/)
 
+代码库位于: [react-draggable中文教程代码](https://github.com/kalacloud-inc/react-draggable-tutorial)
+
 ### 关注我们的[知乎](https://www.zhihu.com/people/xie-ke-41)和[微博](https://weibo.com/u/1788189755)
 
 
