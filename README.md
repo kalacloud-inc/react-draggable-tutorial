@@ -9,6 +9,16 @@
 ### 关注我们的[知乎](https://www.zhihu.com/people/xie-ke-41)和[微博](https://weibo.com/u/1788189755)
 
 
+要运行本教程中的代码，先 `git pull` 后执行
+
+```
+npm install
+npm run start
+```
+
+
+## 正文如下
+
 
 在实现[卡拉云](/blog)时，我们也大量使用了 `react-draggable`。所以这篇文章里，我们介绍如何使用 react-draggable，一些常见的设置和我们的经验。请根据下面的代码一步步实现，最终你要实现的效果如下
 
